@@ -1,13 +1,17 @@
+import React from 'react'
 import { useState } from 'react'
-import ContactList from './'
+import ContactList from './components/contactList'
 import './App.css'
+import dummyContacts from './components/contactList'
+
+
+
+//first step, get the data from 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      
+      <ContactList />
       
     </>
   )
